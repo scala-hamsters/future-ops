@@ -86,3 +86,12 @@ composedAB // Future("ab")
 Same operations can be used with options : `FutureOps.fromOption` and `squash` on `Future[Option[A]]`.
 For empty options, an `EmptyValueError` will be raised.
 
+# Install
+
+Add this to you build.sbt : 
+
+```scala
+resolvers += Resolver.bintrayRepo("loicdescotte", "Hamsters") 
+libraryDependencies += "io.github.scala-hamsters" % "future-ops" % "1.0.0"
+```
+
