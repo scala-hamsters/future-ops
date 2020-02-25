@@ -92,6 +92,6 @@ Add this to you build.sbt :
 
 ```scala
 resolvers += Resolver.bintrayRepo("loicdescotte", "Hamsters") 
-libraryDependencies += "io.github.scala-hamsters" % "future-ops" % "1.0.0"
+libraryDependencies += "io.github.scala-hamsters" %% "future-ops" % "1.0.0"
 ```
 
